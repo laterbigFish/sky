@@ -1,8 +1,11 @@
 sky:
   datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/sky_take_out?characterEncoding=utf8&useSSL=false
+    #指定数据库驱动的类名。这是数据库连接所需的驱动程序，它允许应用程序与特定类型的数据库进行交互
     driver-class-name: com.mysql.cj.jdbc.Driver
-    host: localhost
-    port: 3306
-    database: sky_take_out
+    host: localhost #数据库服务器的地址或主机名
+    port: 3306   # //端口号
+    database: sky_take_out # //数据库名称
+    #数据库的名字和密码
     username: root
-    password: root
+    password: '219161'
